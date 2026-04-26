@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Overlock+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+/* Tagline */
+.tagline {
+  color: #6b7280;
+  font-family: "Overlock SC", sans-serif;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Title */
+.hero-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: linear-gradient(90deg, #f59e0b, #ef4444, #ec4899, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Subtitle */
+.subtitle {
+  margin-top: 20px;
+  font-size: 28px;
+  color: #9ca3af;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Description */
+.description {
+  margin: 20px auto;
+  max-width: 700px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #9ca3af;
+  line-height: 1.6;
+}
+
+/* Highlight words */
+.highlight {
+  color: #a855f7;
+  font-weight: 500;
+}
+
+.highlight-orange {
+  color: #f97316;
+  font-weight: 500;
+}
+
+/* Button */
+.hero-btn {
+  display: inline-block;
+  margin-top: 25px;
+  background: linear-gradient(90deg, #3a86ff, #235099);
+  color: white;
+  padding: 12px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(58, 134, 255, 0.4);
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+}

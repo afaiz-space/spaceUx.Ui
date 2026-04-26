@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Overlock+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.app-section {
+  background: #97e0ff;
+  padding: 80px 20px 160px;
+  /*   border-radius: 40px; */
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Icons */
+/* .top-icon,
+.center-icon {
+  background: #5a8fd8;
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 12px;
+}
+ */
+/* Title */
+.app-title {
+  font-size: 60px;
+  color: #081e24;
+  margin: 10px 0;
+}
+
+.app-subtitle {
+  margin-bottom: 40px;
+  color: #274249;
+}
+
+/* Layout */
+.app-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Text */
+.text-content {
+  max-width: 500px;
+  text-align: left;
+}
+
+.content-heading-01 {
+  margin-top: 20px;
+  color: #081e24;
+}
+
+.content-description-01 {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #274249;
+}
+
+/* Phone */
+.phone-mockup img {
+  width: 260px;
+}
+
+/* Button */
+.btn {
+  background: #fff;
+  color: #ff4d6d;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+/* Gallery */
+.app-gallery {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.app-gallery img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 992px) {
+  .app-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text-content {
+    text-align: center;
+  }
+
+  .app-title {
+    font-size: 40px;
+  }
+
+  .app-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .app-gallery {
+    grid-template-columns: 1fr;
+  }
+}

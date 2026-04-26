@@ -1,0 +1,74 @@
+/* Section */
+
+@import url("https://fonts.googleapis.com/css2?family=Overlock+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.about {
+  background: linear-gradient(45deg, #ffe9e9 50%, #f8faff 50%);
+  padding: 100px 20px;
+  position: relative;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+}
+
+/* Heading */
+.about-heading {
+  color: #1a1a1a;
+  /*   margin-bottom: 40px; */
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: right;
+    font-family: "Overlock SC", sans-serif;
+  font-weight: 50;
+}
+.card_container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Card */
+.about-card {
+  background: #c8e4ff;
+  max-width: 800px;
+  margin: auto;
+  padding: 50px 75px;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Circle */
+.about-circle {
+  position: absolute;
+  top: -125px;
+  left: -115px;
+}
+
+/* Content */
+.about-content h3 {
+  margin-top: 20px;
+  color: #1a1a1a;
+/*   font-family: overlock_About-heading, sans-serif; */
+  font-family: "Overlock SC", sans-serif;
+
+  font-size: 24px;
+  font-weight: 200;
+  /* text-align: left; */
+}
+
+.about-content p {
+  margin-top: 10px;
+  /* color: #f8faff; */
+  color: #6d7c8a;
+  line-height: 1.6;
+  font-size: 20px;
+   font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+/* Center text */
+.center {
+  text-align: center;
+  margin-top: 25px;
+}

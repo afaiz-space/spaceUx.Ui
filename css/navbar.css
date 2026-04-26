@@ -1,0 +1,130 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Overlock+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Footer */
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar-01{
+   position: sticky;
+  top: 0;
+  z-index: 1000;
+
+}
+.navbar {
+ /*  background: #0f172a; */
+  background: #f8faff; 
+  padding: 5px 0;
+ 
+   font-family: "Poppins", sans-serif;
+}
+
+
+/* Container */
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.links_container{
+  display: flex;
+  align-items: center;
+  gap: 35px;
+
+}
+/* Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+.btn-01{
+  margin: 0 !important;
+}
+ .nav-link {
+  text-decoration: none;
+  color: #272727;
+  font-size: 20px;
+    padding: 8px 16px;
+  border-radius: 50px;
+  transition: all .4s ease-in-out ;
+}
+
+
+
+
+ .nav-link:hover{
+   background: linear-gradient(90deg,#235099,#3A86FF);
+
+  box-shadow: 0 8px 20px rgba(58, 134, 255, 0.4);
+  color:#f8faff
+}
+.nav-link.active {
+  background: linear-gradient(90deg, #235099, #3A86FF);
+  color: #fff;
+  box-shadow: 0 6px 15px rgba(58, 134, 255, 0.4);
+}
+/* Button */
+.btn {
+    background: linear-gradient(90deg, #ff7a18, #ff4d6d, #7b2cbf);
+  color: #f8faff;
+  padding: 8px 22px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all 0.4s ease;
+}
+.btn:hover {
+  background: linear-gradient(90deg,#7b2cbf, #ff4d6d, #ff7a18 );
+transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(58, 134, 255, 0.4);
+}
+/* Mobile Menu Icon */
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  color: #272727;
+  cursor: pointer;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #0f172a;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    padding: 20px 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .btn {
+    display: none;
+  }
+}

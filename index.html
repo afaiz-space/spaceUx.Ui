@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpaceUX.UI</title>
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/heroBanner.css">
+  <link rel="stylesheet" href="./css/about.css">
+  <link rel="stylesheet" href="./css/ourService.css">
+  <link rel="stylesheet" href="./css/why_us.css">
+  <link rel="stylesheet" href="./css/cta_card.css">
+  <link rel="stylesheet" href="./css/web-project.css">
+  <link rel="stylesheet" href="./css/mobile_app-design.css">
+</head>
+
+
+
+<body>
+
+  <!-- Navbar load -->
+  
+  <div id="navbar" class="navbar-01"></div>
+
+
+
+   <script>
+    fetch("/components/navbar.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("navbar").innerHTML = data;
+      });
+
+  </script>
+
+  <!-- hero banner start -->
+  <section class="hero" id="heroBanner">
+
+    <p class="tagline">We build it. You own the success.</p>
+
+    <h1 class="hero-title">
+      <span class="gradient-text">Your Ideas.</span><br>
+      <span class="gradient-text">Our Design Expertise</span>
+    </h1>
+
+    <h2 class="subtitle">From Your Vision to Reality</h2>
+
+    <p class="description">
+      We design modern, responsive <span class="highlight">websites</span> and
+      <span class="highlight-orange">mobile apps</span> that help your brand stand out.
+      At SpaceUX.UI, we turn your ideas into powerful digital experiences.
+    </p>
+
+    <a href="#" class="hero-btn">Let’s Discuss</a>
+
+  </section>
+  <!-- hero banner end -->
+
+  <!-- about section start -->
+  <section class="about" id="about">
+
+
+
+    <div class="card_container">
+
+
+      <h2 class="about-heading">Some Words To Say</h2>
+
+      <div class="about-card">
+
+        <!-- Circle -->
+        <div class="about-circle">
+          <img src="./assets/images/illustrations/about_cirecle.svg" alt="">
+        </div>
+
+        <!-- Content -->
+        <div class="about-content">
+
+          <h3>Who We Are</h3>
+          <p>
+            We are a SpaceUX.UI driven by a passion for building web and mobile applications
+            that empower startups to succeed. We merge creativity with strategy to craft products
+            that are not only visually striking but also intuitive, high-performing, and built to deliver real impact.
+          </p>
+
+          <h3 class="center">Our Mission</h3>
+          <p class="center">
+            To design digital experiences that connect users and businesses,
+            transforming ideas into smart, seamless, and meaningful interactions.
+          </p>
+
+          <h3 class="center">Our Vision</h3>
+          <p class="center">
+            To push the boundaries of UX/UI, creating innovative web and mobile solutions
+            that redefine how people experience technology.
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- about section end -->
+
+  <!-- our services section start -->
+
+  <section class="services" id="services">
+    <div class="services_card">
+
+      <p class="tagline">What We Do</p>
+
+      <h2 class="title">
+        <span class="gradient-text">OUR SERVICES</span>
+      </h2>
+
+      <p class="desc1">
+        At SpaceUX.UI, we don’t just design interfaces—we craft experiences. Every pixel, every interaction, and every
+        flow is designed to make your users feel understood, engaged, and delighted. From concept to launch, we help
+        your brand stand out in the digital world.
+      </p>
+
+      <!-- Cards -->
+      <div class="services-grid">
+
+        <div class="card">
+          <img src="./assets/icons/ux_design-brain.svg" alt="User Experience Design">
+          <h3>User Experience (UX) Design</h3>
+          <p>We put your users at the center of everything. Through research, user personas, and journey mapping, we
+            ensure your product is intuitive, seamless, and enjoyable to use. By understanding what your users need and
+            expect, we create experiences that are not just usable, but memorable.</p>
+        </div>
+
+        <div class="card">
+          <img src="./assets/icons/ui_design-palette.svg" alt="user interface desigin">
+          <h3>User Interface (UI) Design</h3>
+          <p>Our UI designs bring your brand to life with clean, modern, and visually striking interfaces. We focus on
+            typography, color palettes, icons, and layouts that are both beautiful and functional. Every design element
+            is carefully crafted to provide clarity, consistency, and delight.</p>
+        </div>
+
+        <div class="card">
+
+          <img src="./assets/icons/web_mobile-mobile.svg" alt="mobile">
+          <h3>Web & Mobile App Design</h3>
+          <p>Whether it’s a responsive website or a mobile app, we design digital experiences that work flawlessly
+            across all devices. Our designs adapt seamlessly to any screen size, delivering an interactive, smooth, and
+            engaging experience for every user.</p>
+        </div>
+
+        <div class="card">
+          <img src="./assets/icons/prototyping-setting.svg" alt="prototyping">
+          <h3>Prototyping & User Testing</h3>
+          <p>Before development begins, we create high-fidelity prototypes to test ideas and validate designs. Through
+            iterative user testing, we refine interactions and flows, ensuring that the final product not only looks
+            amazing but also performs effectively in the real world.</p>
+        </div>
+
+        <div class="card">
+          <img src="./assets/icons/ux_audit-audit01.svg" alt="ux audit">
+          <h3>UX Audit & Consultation</h3>
+          <p>We analyze your existing digital products to uncover usability issues, friction points, and opportunities
+            for improvement. Our data-driven insights and expert recommendations help enhance user satisfaction,
+            increase conversions, and drive business growth.</p>
+        </div>
+
+        <div class="card">
+          <img src="./assets/icons/brand_integration-tag.svg" alt="brand integration">
+          <h3>Brand & Experience Integration</h3>
+          <p>Your brand is more than a logo—it’s an experience. We align your UX/UI design with your brand identity to
+            create a cohesive, meaningful digital presence. Every touchpoint reflects your brand values while delivering
+            exceptional user experiences.</p>
+        </div>
+
+      </div>
+
+      <p class="bottom-text">
+        At SpaceUX.UI, your vision is our blueprint. We combine strategy, creativity, and technical expertise to
+        transform your ideas into digital products that are not only functional but unforgettable.
+      </p>
+    </div>
+  </section>
+  <!-- our services section end -->
+
+  <!-- why us section start -->
+
+  <section class="why-us">
+    <div class="why_us-card">
+      <p class="tagline">Why Choose Us</p>
+
+      <h2 class="title">
+        <span class="gradient-text">Elevate Your Brand with Space UX/UI</span>
+      </h2>
+
+      <p class="desc3">
+        At SpaceUX.UI, we don’t just design interfaces—we create digital experiences that leave a lasting impact. We
+        transform your ideas into exceptional products that are both visually stunning and functionally seamless. Every
+        project we take on is guided by creativity, strategy, and a deep understanding of user behavior, ensuring your
+        digital presence stands out in a crowded online world.
+      </p>
+
+      <!-- Cards -->
+      <div class="why-grid">
+
+        <div class="why-card">
+          <h3>Creative & Modern Designs</h3>
+          <p>Our design philosophy blends aesthetics with purpose. We craft interfaces that are not only visually
+            appealing but also intuitive and engaging, reflecting the essence of your brand and captivating your
+            audience
+            from the first click.</p>
+        </div>
+
+        <div class="why-card">
+          <h3>Mobile-Friendly & Responsive</h3>
+          <p>With users accessing content across a multitude of devices, we ensure every website and app adapts
+            flawlessly
+            to different screen sizes. This guarantees a consistent, enjoyable experience on smartphones, tablets, and
+            desktops alike</p>
+        </div>
+
+        <div class="why-card">
+          <h3>Fast Loading & Optimized</h3>
+          <p>We understand that speed and efficiency are critical. Our designs are optimized for performance, ensuring
+            fast loading times, smooth interactions, and a frictionless user experience that keeps visitors engaged.</p>
+        </div>
+
+        <div class="why-card">
+          <h3>Client-Focused Approach</h3>
+          <p>Your vision is at the heart of our process. We work closely with you at every stage—from ideation and
+            wireframing to final implementation—to make sure the result aligns perfectly with your goals and exceeds
+            your
+            expectations.</p>
+        </div>
+
+        <div class="why-card">
+          <h3>Affordable & Reliable</h3>
+          <p>Quality doesn’t have to come at an excessive cost. We provide premium design services that are both
+            reliable
+            and budget-friendly, offering exceptional value without compromising on creativity or functionality.</p>
+        </div>
+
+      </div>
+
+      <p class="bottom-text">
+        Partner with us, and let’s turn your ideas into a digital reality that truly shines.
+      </p>
+    </div>
+
+  </section>
+  <!-- why us section end -->
+
+  <!-- web design section start -->
+  <section class="project-section" id="webDesign">
+    <div class="portfolio_img">
+      <img src="./assets/images/illustrations/designer-portfolio.svg" alt="">
+    </div>
+    <!-- Top Icons -->
+    <!--  <div class="top-icons">
+      <div class="icon"><img src="/assets/icons/web-file01.svg" alt="web design"></div>
+      <div class="icon"><img src="/assets/icons/web-file01.svg" alt="web design"></div>
+    </div>
+ -->
+    <!-- Title -->
+    <h1 class="project-title">Web Design</h1>
+    <p class="project-subtitle">
+      Web design is the art and science of creating visually appealing and user-friendly websites.
+    </p>
+
+    <!-- Content -->
+    <div class="project-content">
+
+      <!-- Left Text -->
+      <div class="text-content">
+        <h3 class="content-heading-02">Goal:</h3>
+        <p class="content-description-02">
+          The goal of grocery web design is to create a user-friendly and efficient online platform
+          that allows customers to easily browse, select, and purchase grocery items anytime.
+        </p>
+
+        <h3 class="content-heading-02">Description:</h3>
+        <p class="content-description-02">
+          Grocery web design involves developing a website that displays grocery products in an organized
+          and attractive way including categories, search, cart, and checkout.
+        </p>
+      </div>
+
+      <!-- Right Image -->
+      <div class="phone-mockup">
+        <img src="./assets/images/illustrations/grocery_web01.svg" alt="mobile design">
+      </div>
+
+    </div>
+
+    <!-- CTA -->
+    <div class="cta-center">
+      <a href="#" class="btn">Project View More</a>
+    </div>
+
+    <!-- Gallery -->
+    <div class="project-gallery">
+      <img src="./assets/images/illustrations/web-grocery01.svg" alt="">
+      <img src="./assets/images/illustrations/web-grocery02.svg" alt="">
+    </div>
+
+
+  </section>
+
+  <!-- web design section end -->
+  <!-- mobile app design section start -->
+
+  <section class="app-section" id="mobileAppDesign">
+
+    <!-- Top Icon -->
+    <!--  <div class="top-icon">Mobile App</div> -->
+
+    <!-- Title -->
+    <h1 class="app-title">Mobile App Design</h1>
+    <p class="app-subtitle">
+      Mobile app design is the process of designing user-friendly and visually attractive applications.
+    </p>
+
+    <!-- Center Icon -->
+    <!--  <div class="center-icon">UX/UI</div> -->
+
+    <!-- Content -->
+    <div class="app-content">
+
+      <!-- Left Text -->
+      <div class="text-content">
+        <h3 class="content-heading-01">Goal:</h3>
+        <p class="content-description-01">
+          The goal of a fashion mobile app is to provide users with an easy, fast,
+          and personalized way to explore and purchase products.
+        </p>
+
+        <h3 class="content-heading-01">Description:</h3>
+        <p class="content-description-01">
+          A fashion mobile app showcases a wide range of items including categories,
+          search filters, wishlist, cart, and secure payment systems.
+        </p>
+      </div>
+
+      <!-- Right Image -->
+      <div class="phone-mockup">
+        <img src="./assets/images/illustrations/mockup-mobile01.svg" alt="app design">
+      </div>
+
+    </div>
+
+    <!-- CTA -->
+    <div class="cta-center">
+      <a href="#" class="btn">Project View More</a>
+    </div>
+
+    <!-- Gallery -->
+    <div class="app-gallery">
+      <img src="./assets/images/illustrations/mobile-app-design01.svg" alt="mobile design">
+      <img src="./assets/images/illustrations/mb-hunny-food-02.svg" alt="mobile design">
+      <img src="./assets/images/illustrations/mobile-app-design01.svg" alt="mobile design">
+      <img src="./assets/images/illustrations/mb-hunny-food-02.svg" alt="mobile design">
+      <img src="./assets/images/illustrations/mobile-app-design01.svg" alt="mobile design">
+      <img src="./assets/images/illustrations/mb-hunny-food-02.svg" alt="mobile design">
+      <img src="./assets/images/illustrations/mobile-app-design01.svg" alt="mobile design">
+      <img src="./assets/images/illustrations/mb-hunny-food-02.svg" alt="mobile design">
+  
+    </div>
+
+  </section>
+  <!-- mobile app design section end -->
+
+
+  <!-- lests discuss section start -->
+
+  <section class="cta-wrapper" id="letsDiscuss">
+
+    <div class="cta-card">
+
+      <div class="cta-content">
+        <h2>Let’s Build Something Amazing Together.</h2>
+        <p>
+          At SpaceUX.UI, we bring your ideas to life with creative, modern, and user-focused digital designs.
+        </p>
+      </div>
+
+      <div class="cta-btn">
+        <a href="#">Let’s Discuss</a>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- lests discuss section end -->
+
+
+  <!-- Footer load -->
+
+  <div id="footer"></div>
+  <script>
+    fetch("/components/footer.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("footer").innerHTML = data;
+      });
+  </script>
+  <script src="./js/main.js"></script>
+  
+</body>
