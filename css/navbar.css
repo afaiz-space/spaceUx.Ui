@@ -78,7 +78,7 @@
   box-shadow: 0 6px 15px rgba(58, 134, 255, 0.4);
 }
 /* Button */
-.btn {
+.btn-01 {
     background: linear-gradient(90deg, #ff7a18, #ff4d6d, #7b2cbf);
   color: #f8faff;
   padding: 8px 22px;
@@ -88,7 +88,7 @@
   font-weight: 500;
   transition: all 0.4s ease;
 }
-.btn:hover {
+.btn-01:hover {
   background: linear-gradient(90deg,#7b2cbf, #ff4d6d, #ff7a18 );
 transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(58, 134, 255, 0.4);
